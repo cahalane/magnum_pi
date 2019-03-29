@@ -1,0 +1,1 @@
+`magnum_pi` logs the now-playing track on PlayIrish radio to a database table `plays`. Provide `MAGNUM_DSN` as an environment variable for the target DB.
