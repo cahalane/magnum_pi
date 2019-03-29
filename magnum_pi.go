@@ -61,7 +61,6 @@ func main() {
 
 		time.Sleep(10 * time.Second)
 	}
-	defer db.Close()
 }
 
 func firstTitle(db *sql.DB) string {
